@@ -1,3 +1,3 @@
 # rockpapers
 
-<a href=https://arsgpo.github.com/rockpapers>live link</a>
+<a href=https://arsgpo.github.io/rockpapers>live link</a>

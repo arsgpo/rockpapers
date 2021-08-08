@@ -1,4 +1,3 @@
-
 function computerPlay(){
     const compSelection = ["rock", "paper", "scissors"];
     let selection = compSelection[Math.floor(Math.random()*(compSelection.length))];
@@ -11,6 +10,8 @@ function computerPlay(){
   }
   
   function playRound(playerSelection, computerSelection){
+    alert("you picked " + playerSelection);
+    alert ("computer picks " + computerSelection);
   if ((computerSelection === playerSelection)){
     alert("tie,try again!");
   } else if ((computerSelection === "rock") && (playerSelection === "paper")){
@@ -30,6 +31,4 @@ function computerPlay(){
   const playerSelection = playerPlay();
   const computerSelection = computerPlay();
   playRound(playerSelection, computerSelection);
-  console.log(computerSelection);
-  console.log(playerSelection)
   
